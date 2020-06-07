@@ -1,5 +1,5 @@
 *{
-
+    background-color: peachpuff;
 }
 
 header{
@@ -12,19 +12,52 @@ header{
     max-width: 1000px;
 }
 .header-right{
-    display: inline-block;
+    display: block;
     float: left;
-    padding: 0 10px;
+    
 }
 .logo{
+    padding: 10px;
     max-height: 80px;
 }
 .header-left{
-    display: inline-block;
+    display: block;
     float: right;
     
 }
 .help{
     max-height: 80px;
     padding:10px;
+}
+.contents{
+    padding: 20px;
+}
+.content{
+    position: relative;
+    max-width: 33%;
+    /*height:50px;*/
+    border: 2px solid red;
+    background-color: orange;
+    text-align: center;
+}
+.discription{
+    osition: absolute;
+}
+.content a{
+    position: absolute;
+    display: block;
+    font-size:30px;
+    color: white;
+    line-height: 50px;
+}
+.notice{
+    display: inline-block;
+    float: left;
+}
+.version{
+    float: right;
+
+}
+.content:hover{
+    background-color: orangered;
 }
